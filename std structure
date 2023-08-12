@@ -1,0 +1,30 @@
+#include<stdio.h>
+#define pf printf
+#define sf scanf
+struct student
+{
+    int roll,id;
+    char gr;
+    float per;
+};
+main()
+{
+    struct student s;
+    s.roll=111;
+    s.id=87;
+    s.per=99.8;
+    s.gr='a';
+    pf("Roll no:%d\nid no:%d\nprsent:%.2f\ngrade:%c\n",s.roll,s.id,s.per,s.per,s.gr);
+    fflush(stdin);
+    scanf("%d");
+
+}
+/*
+working:simple structure of student data.
+programmed by:RANGREZ AAMIR
+*/
+output:
+Roll no:111
+id no:87
+prsent:99.80
+grade:a
