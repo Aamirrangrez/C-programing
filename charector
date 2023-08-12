@@ -1,0 +1,12 @@
+#include<stdio.h>
+#define pf printf
+#define sf scanf
+main()
+{
+    int c;
+    pf("Enter a chrector:\n");
+    scanf("%c",&c);
+    pf("THE CHARECTOR:{%c}\nTHE ASII VALUE:{%d}",c,c);
+    fflush(stdin);
+    scanf("%d",&c);
+}
