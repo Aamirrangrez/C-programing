@@ -1,0 +1,20 @@
+#include<stdio.h>
+void main (void)
+{
+    int x,y,q,r;
+    printf("ENTER THE TWO NUBERS I WIL GIVE YOU THAT'S QUITION AND REMAINDER\n");
+    scanf("%d%d",&x,&y);
+    q=x/y;
+    r=x%y;
+    printf("The qution of given numbers is:%d\nThe remainder of given number is:%d",q,r);
+}
+/*
+programm:to calculate the quetion and the remainder
+date:25-09-2022
+programmed by:*RANGREZ AAMIR*
+*/
+output: ENTER THE TWO NUBERS I WIL GIVE YOU THAT'S QUITION AND REMAINDER
+55
+5
+The qution of given numbers is:11
+The remainder of given number is:0
