@@ -14,6 +14,10 @@ void main(void)
     }
     fflush(stdin);
     scanf("%d",&z);
+    /*
+    work: To take input from user & display table of it.
+    programmed by: RANGREZ AAMIR  
+    */
 
 
 }
